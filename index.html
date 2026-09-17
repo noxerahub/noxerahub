@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="theme-color" content="#07070a">
+    <meta name="description" content="NOXERA HUB — Digital Identity & Creative Space">
+    <title>NOXERA HUB — Digital Identity</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         LOADER
+         ===================================================== -->
+
+    <div class="loader" id="loader">
+        <div>
+            <div class="loader-brand">
+                <img src="./assets/logo.png" alt="NOXERA HUB">
+            </div>
+
+            <div class="loader-track">
+                <i></i>
+            </div>
+
+            <small>INITIALIZING DIGITAL SPACE</small>
+        </div>
+    </div>
+
+
+    <!-- =====================================================
+         BACKGROUND
+         ===================================================== -->
+
+    <div class="bg-grid"></div>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+
+    <!-- =====================================================
+         NAVBAR
+         ===================================================== -->
+
+    <header class="nav" id="nav">
+
+        <a
+            class="brand"
+            href="#home"
+            aria-label="NOXERA HUB"
+        >
+            <img
+                src="./assets/logo.png"
+                alt="NOXERA HUB"
+            >
+        </a>
+
+
+        <button
+            class="menu"
+            id="menuBtn"
+            aria-label="Open menu"
+            aria-expanded="false"
+        >
+            <i></i>
+            <i></i>
+        </button>
+
+
+        <nav id="navMenu">
+
+            <a
+                class="active"
+                href="#home"
+            >
+                Home
+            </a>
+
+            <a href="#social">
+                Social
+            </a>
+
+            <a href="#server">
+                Server VIP
+            </a>
+
+        </nav>
+
+
+        <div class="tools">
+
+            <button
+                id="soundBtn"
+                title="Music"
+            >
+                ♫
+            </button>
+
+            <button
+                id="fullscreenBtn"
+                title="Fullscreen"
+            >
+                ⛶
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+         ===================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HOME
+             ================================================= -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="hero-inner">
+
+
+                <!-- HERO TEXT -->
+
+                <div class="hero-copy">
+
+                    <div class="eyebrow">
+                        <b></b>
+                        ONLINE · DIGITAL CREATOR
+                    </div>
+
+
+                    <div class="hero-kicker">
+                        WELCOME TO MY SPACE
+                    </div>
+
+
+                    <h1>
+                        NOXERA<span>HUB</span>
+                    </h1>
+
+
+                    <div class="hero-line">
+                        DIGITAL IDENTITY
+                        <em>×</em>
+                        CREATIVE SPACE
+                    </div>
+
+                    <div class="actions">
+
+                        <a
+                            class="btn primary"
+                            href="#social"
+                        >
+                            Connect With Me
+                            <span>↗</span>
+                        </a>
+
+
+                        <a
+                            class="btn"
+                            href="#server"
+                        >
+                            Server VIP
+                            <span>↓</span>
+                        </a>
+
+                    </div>
+
+
+                    <!-- META -->
+
+                    <div class="meta">
+
+                        <div>
+                            <small>LOCAL TIME</small>
+                            <strong id="clock">
+                                --:--:--
+                            </strong>
+                        </div>
+
+
+                        <div>
+                            <small>VISITORS</small>
+                            <strong id="visitorCount">
+                                0
+                            </strong>
+                        </div>
+
+
+                        <div>
+                            <small>STATUS</small>
+                            <strong class="online">
+                                AVAILABLE
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HERO AVATAR -->
+
+                <div class="avatar-card">
+
+                    <div class="avatar-ring"></div>
+
+                    <div class="avatar-ring r2"></div>
+
+
+                    <div class="avatar-box">
+
+                        <img
+                            src="./assets/avatar.png"
+                            alt="NOXERA HUB avatar"
+                            onerror="this.remove();this.nextElementSibling.style.display='grid'"
+                        >
+
+                        <span>
+                            NX
+                        </span>
+
+                    </div>
+
+
+                    <div class="avatar-tag">
+                        NOXERA / 001
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll">
+                SCROLL
+                <i></i>
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SOCIAL
+             ================================================= -->
+
+        <section
+            class="section"
+            id="social"
+        >
+
+            <div class="section-head">
+
+                <div>
+
+                    <small>
+                        01 / CONNECT
+                    </small>
+
+                    <h2>
+                        ช่องทางการติดตาม
+                    </h2>
+
+                </div>
+
+
+                <p>
+                    Social platforms, community and content.
+                </p>
+
+            </div>
+
+
+            <div class="social-grid">
+
+
+                <!-- DISCORD -->
+
+                <a
+                    class="card"
+                    href="https://discord.gg/q56wy9eueU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <div class="icon">
+                        D
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            DISCORD
+                        </small>
+
+                        <strong>
+                            VERY NICE AND EASY
+                        </strong>
+
+                        <span>
+                            Join the community
+                        </span>
+
+                    </div>
+
+
+                    <b>
+                        ↗
+                    </b>
+
+                </a>
+
+
+                <!-- TIKTOK -->
+
+                <a
+                    class="card"
+                    href="https://www.tiktok.com/@kxxwiirxb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <div class="icon">
+                        ♪
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            TIKTOK
+                        </small>
+
+                        <strong>
+                            @kxxwiirxb
+                        </strong>
+
+                        <span>
+                            Short videos & content
+                        </span>
+
+                    </div>
+
+
+                    <b>
+                        ↗
+                    </b>
+
+                </a>
+
+
+                <!-- INSTAGRAM -->
+
+                <a
+                    class="card"
+                    href="https://www.instagram.com/zg_atithep.k/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <div class="icon">
+                        ◎
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            INSTAGRAM
+                        </small>
+
+                        <strong>
+                            @zg_atithep.k
+                        </strong>
+
+                        <span>
+                            Photos & daily updates
+                        </span>
+
+                    </div>
+
+
+                    <b>
+                        ↗
+                    </b>
+
+                </a>
+
+
+                <!-- YOUTUBE -->
+
+                <a
+                    class="card"
+                    href="https://www.youtube.com/@kxxwii_rxb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <div class="icon">
+                        ▶
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            YOUTUBE
+                        </small>
+
+                        <strong>
+                            KXXWII RXB
+                        </strong>
+
+                        <span>
+                            Videos & projects
+                        </span>
+
+                    </div>
+
+
+                    <b>
+                        ↗
+                    </b>
+
+                </a>          
+            </div>
+
+        </section>
+
+
+        <section
+            class="section"
+            id="social"
+        >
+
+            <div class="section-head">
+
+                <div>
+
+                    <small>
+                        02 / Script Executor Exploits
+                    </small>
+
+                    <h2>
+                        ตัวรัน
+                    </h2>
+
+                </div>
+
+
+                <p>
+                    Social platforms, community and content.
+                </p>
+
+            </div>
+
+            <!-- WEAO -->
+
+                <a
+                    class="card"
+                    href="https://weao.xyz/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <div class="icon">
+                        W
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            WEAO
+                        </small>
+
+                        <strong>
+                            weao.xyz
+                        </strong>
+
+                        <span>
+                            Roblox script ecosystem
+                        </span>
+
+                    </div>
+
+
+                    <b>
+                        ↗
+                    </b>
+
+                </a>
+
+
+        <!-- =================================================
+             VIP SERVERS
+             ================================================= -->
+
+        <section
+            class="section"
+            id="server"
+        >
+
+            <div class="section-head">
+
+                <div>
+
+                    <small>
+                        03 / ROBLOX
+                    </small>
+
+                    <h2>
+                        VIP Servers
+                    </h2>
+
+                </div>
+
+
+                <p>
+                    Private Roblox server access.
+                </p>
+
+            </div>
+
+
+            <!-- SERVER COUNT -->
+
+            <div class="server-total">
+
+                <span>
+                    TOTAL SERVERS
+                </span>
+
+                <strong id="totalServers">
+                    20
+                </strong>
+
+            </div>
+
+
+            <!-- =================================================
+                 BLOX FRUITS
+                 ================================================= -->
+
+            <div class="game">
+
+                <div class="game-head">
+
+                    <div class="game-icon">
+
+                        <img
+                            src="./assets/blox.png"
+                            alt="Blox Fruits"
+                        >
+
+                    </div>
+
+
+                    <div class="game-title">
+
+                        <h3>
+                            Blox Fruits
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="server-grid"
+                    id="bloxfruitsServers"
+                ></div>
+
+            </div>
+
+
+            <!-- =================================================
+                 KING LEGACY
+                 ================================================= -->
+
+            <div class="game">
+
+                <div class="game-head">
+
+                    <div class="game-icon">
+
+                        <img
+                            src="./assets/king.png"
+                            alt="King Legacy"
+                        >
+
+                    </div>
+
+
+                    <div class="game-title">
+
+                        <h3>
+                            King Legacy
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="server-grid"
+                    id="kinglegacyServers"
+                ></div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         MUSIC PLAYER
+         ===================================================== -->
+
+    <div
+        class="music"
+        id="musicPlayer"
+    >
+
+        <button id="musicPlay">
+            ▶
+        </button>
+
+
+        <div>
+
+            <small>
+                NOW PLAYING
+            </small>
+
+            <strong>
+                NOXERA HUB — Digital Space
+            </strong>
+
+            <span id="musicStatus">
+                MUSIC OFF
+            </span>
+
+        </div>
+
+
+        <div
+            class="eq"
+            id="musicEqualizer"
+        >
+
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         AUDIO
+         ===================================================== -->
+
+    <audio
+        id="bgMusic"
+        loop
+        preload="metadata"
+    >
+
+        <source
+            src="./assets/music.mp3"
+            type="audio/mpeg"
+        >
+
+    </audio>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer>
+
+        <div>
+
+            <strong>
+                NOXERA HUB
+            </strong>
+
+            <span>
+                DIGITAL IDENTITY
+            </span>
+
+        </div>
+
+
+        <p>
+            © 2026 NOXERA HUB — Crafted in the dark.
+        </p>
+
+
+        <div class="footer-status">
+
+            <i></i>
+
+            SYSTEM ONLINE
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
